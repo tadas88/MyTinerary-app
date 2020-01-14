@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.logo {
+  width: 75%;
+  height: 35%;
+  padding: 10px;
+}
+
+.go {
+  width: 20%;
+  height: 15%;
+  align-self: center;
+}
+
+.center.text {
+  margin-top: 10px;
+  margin-bottom: 10px
+}
+
+.center.account {
+  padding-left: 10%;
+  padding-right: 10%
+}
+
+.homeLogo {
+  width: 73%;
+  height: 12%;
+  margin-top: -4%;
+}
+
+.center.home {
+  bottom: 0
+}
+
+.center.homeLogoAccount {
+  width: 10%;
+  height: 5%;
+  bottom: 0;
+  margin-bottom: -50%
+}
+
+.center.homeLogoNewAccount {
+  width: 10%;
+  height: 5%;
+  bottom: 0;
+  margin-bottom: -100%
+}
+
+.inputLine {
+  width: 80%;
+  margin-top: 5%
+}
+
+.loginInputLine {
+  width: 80%;
+  margin-top: 8%;
+  margin-bottom: 7%
+}
+
+
+.slider {
+  bottom: 10%;
+  padding: 15px;
+  height: 33%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.waves-effect.waves-light.btn-large {
+  width: 80%;
+}
+
+.activity-rating {
+  display: flex;
+
+}
+
+.stars {
+  zoom: 130%;
+  margin-left: 4px;
+}
+
+.sliderStars {
+  zoom: 150%;
+  margin-bottom: -5%;
+}
+
+h5 {
+  overflow: hidden;
+  text-align: center;
+}
+
+h5:before,
+h5:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+h5:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+h5:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+#account-buttons {
+  margin-top: 10%;
+  margin-bottom: 10%
+}
+
+.footer {
+  position: fixed;
+  left:0;
+  bottom:0;
+  right:0;
+  height: 6%;
+}
+
+.innerApp {
+  padding-bottom: 60px;
+  overflow: scroll;
+}
+
+.center.allCities {
+  overflow: scroll;
+  scroll-padding-bottom: 60px;
+}
+
+.container {
+  margin-top: -3%;
+}
+
+.post.card.cities {
+  overflow: scroll;
+  height: 33rem;
+  border-style: hidden;
+  margin-bottom: -5%
+}
