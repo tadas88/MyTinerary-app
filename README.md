@@ -1,3 +1,14 @@
+## Mytinerary
+
+The final project for the Ubiqum Coding Academy in Madrid.
+This application is built using React and Redux as well as a number of libraries including MaterializeCSS, React-Strap and React-Slick.
+
+For now this is a v1.0 of the app and I will be making future improvements to it.
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
