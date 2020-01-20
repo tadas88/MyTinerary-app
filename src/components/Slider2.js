@@ -21,21 +21,22 @@ class SimpleSlider2 extends Component {
   render() {
     const settings = {
       dots: true,
+      fade: true,
       infinite: true,
-      speed: 980,
+      speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 4900
+      autoplaySpeed: 4900,
+      adaptiveHeight: true
     };
 
     const allSlides = this.state.slide.map(singleSlide => {
         return (
             <div className="center">
                 <Link to={'/iteneraries/' + singleSlide.city}>
-                    <img className="center" src={singleSlide.img} height="300" width="500" alt="" />
+                    <img className="center" src={singleSlide.img} height="285" width="500" alt="" />
                 </Link>
-                <h5><strong>{singleSlide.title}</strong></h5>
                 <StarRatingComponent 
                     name="Rating" 
                     className="sliderStars"
@@ -43,6 +44,7 @@ class SimpleSlider2 extends Component {
                     starCount={5}
                     value={singleSlide.rating}>
                 </StarRatingComponent>
+                <h5 className="section"><strong>{singleSlide.title}</strong></h5>
             </div>
         );
     });
