@@ -6,7 +6,13 @@ This application is built using React and Redux as well as a number of libraries
 For now this is a v1.0 of the app and I will be making future improvements to it.
 
 
+## Update 20/Jan
 
+Changed slider animation to fade
+
+Sectioned text on Landing page
+
+Repositioned StarRating component on Landing page
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

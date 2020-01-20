@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import HomeLogo from '../homeIcon.png';
 import Logo from '../MYtineraryLogo.png'
 
 class Navbar2 extends Component {
     render() {
         return (
             <div>
-                <nav>
+                <nav className="z-depth-0">
                     <div className="nav-wrapper indigo darken-1">
                     <Link to={'/'} className="brand-logo center" >
                         <img src={Logo} alt="logo" className="homeLogo" />
