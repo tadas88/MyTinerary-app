@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Landing from './components/Landing';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Navbar from './components/Navbar2';
-import Cities from './components/Cities2';
+import Cities from './components/Cities3';
 import Itenerary from './components/Itinerary';
 import AccountLandingPage from './components/AccountLandingPage';
 import NewAccount from './components/CreateAccount2';
