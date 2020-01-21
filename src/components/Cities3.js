@@ -35,7 +35,12 @@ class Cities extends Component {
                         {/* <img src={city.img} alt="City image"/> */}
                         <div className="center">
                             <Link to={'/iteneraries/' + city.name}>
-                                <span className="waves-effect waves-light btn-large indigo darken-1">{city.name}</span>
+                                <div className="card">
+                                    <div className="card-image">
+                                        <img src={city.img} />
+                                        <span className="card-title">{city.name}</span>
+                                    </div>
+                                </div>
                             </Link>
                             <p>{city.body}</p>
                         </div>

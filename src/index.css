@@ -83,6 +83,7 @@ code {
 
 .waves-effect.waves-light.btn-large {
   width: 80%;
+  border-radius: 20px
 }
 
 .activity-rating {
@@ -153,9 +154,10 @@ h5:after {
   margin-top: -3%;
 }
 
-.post.card.cities {
+.cities {
   overflow: scroll;
   height: 33rem;
   border-style: hidden;
-  margin-bottom: -5%
+  margin-bottom: -5%;
+  border-style: none;
 }
