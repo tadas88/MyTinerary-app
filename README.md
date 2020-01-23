@@ -3,7 +3,7 @@
 The final project for the Ubiqum Coding Academy in Madrid.
 This application is built using React and Redux as well as a number of libraries including MaterializeCSS, React-Strap and React-Slick.
 
-For now this is a v1.0 of the app and I will be making future improvements to it.
+For now this is a v1.0 of the app and I will be making future improvements to it. As responsive design has not been set up at this moment the app should be viewed for iPhone 6/7/8 via Google Chrome developer console.
 
 
 ## Update 20/Jan
